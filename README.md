@@ -58,8 +58,8 @@
 | :----------------------------------------------------------- | :---------------------------- |
 | `;bkb`, <kbd>Ctrl + 9</kbd>, <kbd>Ctrl + 0</kbd>             | `\left(  \right)`             |
 | `;bks`, <kbd>Ctrl + [</kbd>, <kbd>Ctrl + ]</kbd>             | `\left[  \right]`             |
-| `;bkm`, <kbd>Ctrl + \\</kbd>                                 | `\left|  \right|`             |
-| `;bkl`,<kbd>Ctrl + Shift + \\</kbd>                          | `\left\|  \right\|`           |
+| `;bkm`, <kbd>Ctrl + \\</kbd>                                 | `\left\|  \right\|`             |
+| `;bkl`,<kbd>Ctrl + Shift + \\</kbd>                          | `\left\\|  \right\\|`           |
 | `;bka`, <kbd>Ctrl + ,</kbd>, <kbd>Ctrl + .</kbd>             | `\left\langle  \right\rangle` |
 | `;bkc`, <kbd>Ctrl + Shift + [</kbd>, <kbd>Ctrl + Shift + ]</kbd> | `\left\lbrace  \right\rbrace` |
 
@@ -73,7 +73,7 @@
 | `;^`                      | `\hat{}`             |
 | `;-`                      | `\bar{}`             |
 | `;~`                      | `\tilde{}`           |
-| `;|`                      | `\left.  \right|_{}` |
+| `;\|`                      | `\left.  \right\|_{}` |
 | <kbd>Ctrl + ^</kbd>       | `^{}`                |
 | <kbd>Ctrl + _</kbd>       | `_{}`                |
 
