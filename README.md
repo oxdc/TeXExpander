@@ -77,7 +77,7 @@
 | <kbd>Ctrl + ^</kbd>       | `^{}`                |
 | <kbd>Ctrl + _</kbd>       | `_{}`                |
 
-## Font & Style
+## Fonts & Styles
 
 | Trigger | LaTeX             |
 | :------ | :---------------- |
@@ -105,3 +105,14 @@
 | `/<-->/` | `\longleftrightarrow` |
 | `/<=>/`  | `\Leftrightarrow`     |
 | `/<==>/` | `\Longleftrightarrow` |
+
+## Environments
+
+Trigger: `;env`
+
+LaTeX:
+```latex
+\begin{envname}
+
+\end{envname}
+```

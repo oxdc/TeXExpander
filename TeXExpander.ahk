@@ -79,7 +79,7 @@ SetWorkingDir, %A_ScriptDir%
 ^6::Send, {^}{{}{}}{Left 1}
 ^-::Send, _{{}{}}{Left 1}
 
-; Font & Style
+; Fonts & Styles
 :c*:;tbf::\textbf{{}{}}{Left 1}
 :c*:;ti::\textit{{}{}}{Left 1}
 :c*:;bb::\mathbb{{}{}}{Left 1}
@@ -101,3 +101,9 @@ SetWorkingDir, %A_ScriptDir%
 :c*:/<-->/::\longleftrightarrow
 :c*:/<=>/::\Leftrightarrow
 :c*:/<==>/::\Longleftrightarrow
+
+; Environments
+:c*:;env::
+    InputBox, Environment, "TeXExpander", "Environment name:", , 300, 100
+    Send, \begin{{}%Environment%{}}`n`n\end{{}%Environment%{}}{Up 1}
+return
