@@ -47,6 +47,8 @@ SetWorkingDir, %A_ScriptDir%
 :c*:;d::\mathrm{{}d{}}
 :c*:;p::\partial
 :c*:;.::\cdot
+:c*:;oo::\infty
+:c*:;inf::\infty
 
 ; Brackets
 :c*:;bkb::\left(  \right){Left 8}
@@ -80,10 +82,11 @@ SetWorkingDir, %A_ScriptDir%
 ^-::Send, _{{}{}}{Left 1}
 
 ; Fonts & Styles
-:c*:;tbf::\textbf{{}{}}{Left 1}
+:c*:;tb::\textbf{{}{}}{Left 1}
 :c*:;ti::\textit{{}{}}{Left 1}
 :c*:;bb::\mathbb{{}{}}{Left 1}
 :c*:;bf::\mathbf{{}{}}{Left 1}
+:c*:;ca::\mathcal{{}{}}{Left 1}
 :c*:;cal::\mathcal{{}{}}{Left 1}
 :c*:;rm::\mathrm{{}{}}{Left 1}
 :c*:;op::\operatorname{{}{}}{Left 1}

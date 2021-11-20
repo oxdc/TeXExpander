@@ -45,12 +45,13 @@
 
 ## Symbols
 
-| Trigger | LaTeX        |
-| :------ | :----------- |
-| `;n`    | `\nabla`     |
-| `;d`    | `\mathrm{d}` |
-| `;p`    | `\partial`   |
-| `;.`    | `\cdot`      |
+| Trigger       | LaTeX        |
+| :------------ | :----------- |
+| `;n`          | `\nabla`     |
+| `;d`          | `\mathrm{d}` |
+| `;p`          | `\partial`   |
+| `;.`          | `\cdot`      |
+| `;oo`, `;inf` | `\infty`     |
 
 ## Brackets
 
@@ -79,15 +80,15 @@
 
 ## Fonts & Styles
 
-| Trigger | LaTeX             |
-| :------ | :---------------- |
-| `;tbf`  | `\textbf{}`       |
-| `;ti`   | `\textit{}`       |
-| `;bb`   | `\mathbb{}`       |
-| `;bf`   | `\mathbf{}`       |
-| `;cal`  | `\mathcal{}`      |
-| `;rm`   | `\mathrm{}`       |
-| `;op`   | `\operatorname{}` |
+| Trigger       | LaTeX             |
+| :------------ | :---------------- |
+| `;tb`         | `\textbf{}`       |
+| `;ti`         | `\textit{}`       |
+| `;bb`         | `\mathbb{}`       |
+| `;bf`         | `\mathbf{}`       |
+| `;ca`, `;cal` | `\mathcal{}`      |
+| `;rm`         | `\mathrm{}`       |
+| `;op`         | `\operatorname{}` |
 
 ## Arrows
 
