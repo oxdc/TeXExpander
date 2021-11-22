@@ -36,8 +36,8 @@ SetWorkingDir, %A_ScriptDir%
 :c*:/U::\Upsilo
 :c*:/ve::\varepsilon
 :c*:/j::\varphi
-:c*:/vp::\varphi
-:c*:/vf::\varrho
+:c*:/vf::\varphi
+:c*:/vr::\varrho
 :c*:/vq::\vartheta
 :c*:/x::\xi
 :c*:/z::\zeta
@@ -47,6 +47,8 @@ SetWorkingDir, %A_ScriptDir%
 :c*:;d::\mathrm{{}d{}}
 :c*:;p::\partial
 :c*:;.::\cdot
+:c*:;*::\times
+:c*:;x::\times
 :c*:;oo::\infty
 :c*:;inf::\infty
 
@@ -57,6 +59,12 @@ SetWorkingDir, %A_ScriptDir%
 :c*:;bkl::\left\|  \right\|{Left 9}
 :c*:;bka::\left\langle  \right\rangle{Left 14}
 :c*:;bkc::\left\lbrace  \right\rbrace{Left 14}
+:c*:;ceil::\left\lceil  \right\rceil{Left 13}
+:c*:;floor::\left\lfloor  \right\rfloor{Left 14}
+:c*:;+1::\big
+:c*:;+2::\Big
+:c*:;+3::\bigg
+:c*:;+4::\Bigg
 ^9::Send, \left(  \right){Left 8}
 ^0::Send, \left(  \right){Left 8}
 ^[::Send, \left[  \right]{Left 8}
@@ -69,16 +77,17 @@ SetWorkingDir, %A_ScriptDir%
 ^+]::Send, \left\lbrace  \right\rbrace{Left 14}
 
 ; Formatting
-:c*:;/::\frac{{}{}}{{}{}}{Left 3}
 :c*:;2::\sqrt{{}{}}{Left 1}
+:c*:;6::{^}{{}{}}{Left 1}
+:c*:;/::\frac{{}{}}{{}{}}{Left 3}
 :c*:;v::\vec{{}{}}{Left 1}
 :c*:;^::\hat{{}{}}{Left 1}
 :c*:;-::\bar{{}{}}{Left 1}
 :c*:;~::\tilde{{}{}}{Left 1}
 :c*:;|::\left.  \right|_{{}{}}{Left 11}
 ^2::Send, \sqrt{{}{}}{Left 1}
-^/::Send, \frac{{}{}}{{}{}}{Left 3}
 ^6::Send, {^}{{}{}}{Left 1}
+^/::Send, \frac{{}{}}{{}{}}{Left 3}
 ^-::Send, _{{}{}}{Left 1}
 
 ; Fonts & Styles

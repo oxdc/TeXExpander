@@ -37,8 +37,8 @@
 | `/U`    | `\Upsilo`     |
 | `/ve`   | `\varepsilon` |
 | `/j`    | `\varphi`     |
-| `/vp`   | `\varphi`     |
-| `/vf`   | `\varrho`     |
+| `/vf`   | `\varphi`     |
+| `/vr`   | `\varrho`     |
 | `/vq`   | `\vartheta`   |
 | `/x`    | `\xi`         |
 | `/z`    | `\zeta`       |
@@ -51,32 +51,39 @@
 | `;d`          | `\mathrm{d}` |
 | `;p`          | `\partial`   |
 | `;.`          | `\cdot`      |
+| `;x`, `;*`    | `\times`     |
 | `;oo`, `;inf` | `\infty`     |
 
 ## Brackets
 
-| Trigger                                                      | LaTeX                         |
-| :----------------------------------------------------------- | :---------------------------- |
-| `;bkb`, <kbd>Ctrl + 9</kbd>, <kbd>Ctrl + 0</kbd>             | `\left(  \right)`             |
-| `;bks`, <kbd>Ctrl + [</kbd>, <kbd>Ctrl + ]</kbd>             | `\left[  \right]`             |
-| `;bkm`, <kbd>Ctrl + \\</kbd>                                 | `\left\|  \right\|`             |
-| `;bkl`,<kbd>Ctrl + Shift + \\</kbd>                          | `\left\\|  \right\\|`           |
-| `;bka`, <kbd>Ctrl + ,</kbd>, <kbd>Ctrl + .</kbd>             | `\left\langle  \right\rangle` |
+| Trigger                                                          | LaTeX                         |
+| :--------------------------------------------------------------- | :---------------------------- |
+| `;bkb`, <kbd>Ctrl + 9</kbd>, <kbd>Ctrl + 0</kbd>                 | `\left(  \right)`             |
+| `;bks`, <kbd>Ctrl + [</kbd>, <kbd>Ctrl + ]</kbd>                 | `\left[  \right]`             |
+| `;bkm`, <kbd>Ctrl + \\</kbd>                                     | `\left\|  \right\|`           |
+| `;bkl`,<kbd>Ctrl + Shift + \\</kbd>                              | `\left\\|  \right\\|`         |
+| `;bka`, <kbd>Ctrl + ,</kbd>, <kbd>Ctrl + .</kbd>                 | `\left\langle  \right\rangle` |
 | `;bkc`, <kbd>Ctrl + Shift + [</kbd>, <kbd>Ctrl + Shift + ]</kbd> | `\left\lbrace  \right\rbrace` |
+| `;ceil`                                                          | `\left\lceil  \right\rceil`   |
+| `;floor`                                                         | `\left\lfloor  \right\rfloor` |
+| `;+1`                                                            | `\big`                        |
+| `;+2`                                                            | `\Big`                        |
+| `;+3`                                                            | `\bigg`                       |
+| `;+4`                                                            | `\Bigg`                       |
 
 ## Formatting
 
-| Trigger                   | LaTeX                |
-| :------------------------ | :------------------- |
-| `;/`, <kbd>Ctrl + /</kbd> | `\frac{}{}`          |
-| `;2`, <kbd>Ctrl + 2</kbd> | `\sqrt{}`            |
-| `;v`                      | `\vec{}`             |
-| `;^`                      | `\hat{}`             |
-| `;-`                      | `\bar{}`             |
-| `;~`                      | `\tilde{}`           |
-| `;\|`                      | `\left.  \right\|_{}` |
-| <kbd>Ctrl + ^</kbd>       | `^{}`                |
-| <kbd>Ctrl + _</kbd>       | `_{}`                |
+| Trigger                   | LaTeX                 |
+| :------------------------ | :-------------------- |
+| `;/`, <kbd>Ctrl + /</kbd> | `\frac{}{}`           |
+| `;2`, <kbd>Ctrl + 2</kbd> | `\sqrt{}`             |
+| `;v`                      | `\vec{}`              |
+| `;^`                      | `\hat{}`              |
+| `;-`                      | `\bar{}`              |
+| `;~`                      | `\tilde{}`            |
+| `;\|`                     | `\left.  \right\|_{}` |
+| <kbd>Ctrl + ^</kbd>       | `^{}`                 |
+| <kbd>Ctrl + _</kbd>       | `_{}`                 |
 
 ## Fonts & Styles
 
