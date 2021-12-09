@@ -91,6 +91,7 @@ SetWorkingDir, %A_ScriptDir%
 ^-::Send, _{{}{}}{Left 1}
 
 ; Fonts & Styles
+:c*:;tx::\text{{}{}}{Left 1}
 :c*:;tb::\textbf{{}{}}{Left 1}
 :c*:;ti::\textit{{}{}}{Left 1}
 :c*:;bb::\mathbb{{}{}}{Left 1}
