@@ -52,10 +52,10 @@ SetWorkingDir, %A_ScriptDir%
 :c*:;x::\times
 :c*:;oo::\infty
 :c*:;inf::\infty
-:c*:<<::\ll
-:c*:>>::\gg
-:c*:<=::\le
-:c*:>=::\ge
+:c*:;<<::\ll
+:c*:;>>::\gg
+:c*:;<=::\le
+:c*:;>=::\ge
 
 ; Brackets
 :c*:;ceil::\left\lceil  \right\rceil{Left 13}
