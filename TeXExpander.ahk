@@ -53,14 +53,10 @@ SetWorkingDir, %A_ScriptDir%
 :c*:;inf::\infty
 
 ; Brackets
-:c*:;bkb::\left(  \right){Left 8}
-:c*:;bks::\left[  \right]{Left 8}
-:c*:;bkm::\left|  \right|{Left 8}
-:c*:;bkl::\left\|  \right\|{Left 9}
-:c*:;bka::\left\langle  \right\rangle{Left 14}
-:c*:;bkc::\left\lbrace  \right\rbrace{Left 14}
 :c*:;ceil::\left\lceil  \right\rceil{Left 13}
 :c*:;floor::\left\lfloor  \right\rfloor{Left 14}
+:c*:;bra::\left\langle  \right|{Left 8}
+:c*:;ket::\left|  \right\rangle{Left 14}
 :c*:;+1::\big
 :c*:;+2::\Big
 :c*:;+3::\bigg
@@ -75,6 +71,8 @@ SetWorkingDir, %A_ScriptDir%
 ^.::Send, \left\langle  \right\rangle{Left 14}
 ^+[::Send, \left\lbrace  \right\rbrace{Left 14}
 ^+]::Send, \left\lbrace  \right\rbrace{Left 14}
+^+,::Send, \left\langle  \right|{Left 8}
+^+.::Send, \left|  \right\rangle{Left 14}
 
 ; Formatting
 :c*:;2::\sqrt{{}{}}{Left 1}
