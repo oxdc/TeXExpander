@@ -43,6 +43,7 @@ SetWorkingDir, %A_ScriptDir%
 :c*:/z::\zeta
 
 ; Symbols
+:c*:;h::\hbar
 :c*:;n::\nabla
 :c*:;d::\mathrm{{}d{}}
 :c*:;p::\partial
@@ -51,6 +52,10 @@ SetWorkingDir, %A_ScriptDir%
 :c*:;x::\times
 :c*:;oo::\infty
 :c*:;inf::\infty
+:c*:<<::\ll
+:c*:>>::\gg
+:c*:<=::\le
+:c*:>=::\ge
 
 ; Brackets
 :c*:;ceil::\left\lceil  \right\rceil{Left 13}
@@ -82,7 +87,7 @@ SetWorkingDir, %A_ScriptDir%
 :c*:;^::\hat{{}{}}{Left 1}
 :c*:;-::\bar{{}{}}{Left 1}
 :c*:;~::\tilde{{}{}}{Left 1}
-:c*:;|::\left.  \right\rvert_{{}{}}{Left 11}
+:c*:;|::\left.  \right\rvert_{{}{}}{Left 16}
 ^2::Send, \sqrt{{}{}}{Left 1}
 ^6::Send, {^}{{}{}}{Left 1}
 ^/::Send, \frac{{}{}}{{}{}}{Left 3}
