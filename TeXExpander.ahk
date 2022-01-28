@@ -82,7 +82,7 @@ SetWorkingDir, %A_ScriptDir%
 :c*:;^::\hat{{}{}}{Left 1}
 :c*:;-::\bar{{}{}}{Left 1}
 :c*:;~::\tilde{{}{}}{Left 1}
-:c*:;|::\left.  \right|_{{}{}}{Left 11}
+:c*:;|::\left.  \right\rvert_{{}{}}{Left 11}
 ^2::Send, \sqrt{{}{}}{Left 1}
 ^6::Send, {^}{{}{}}{Left 1}
 ^/::Send, \frac{{}{}}{{}{}}{Left 3}
