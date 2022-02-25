@@ -118,6 +118,12 @@ SetWorkingDir, %A_ScriptDir%
 :c*:/<=>/::\Leftrightarrow
 :c*:/<==>/::\Longleftrightarrow
 
+; Typography
+:c*:/--/::–
+:c*:/---/::—
+:c*:/'/::‘’
+:c*:/"/::“”
+
 ; Environments
 :c*:;env::
     InputBox, Environment, "TeXExpander", "Environment name:", , 300, 100
